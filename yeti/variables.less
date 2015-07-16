@@ -14,11 +14,82 @@
 @gray-light:             lighten(@gray-base, 60%);   // #999
 @gray-lighter:           lighten(@gray-base, 93.5%); // #eee
 
-@brand-primary:         #008cba;
-@brand-success:         #43ac6a;
-@brand-info:            #5bc0de;
-@brand-warning:         #E99002;
-@brand-danger:          #F04124;
+@brand-primary: #2683C3;
+@brand-success: #00A94F;
+@brand-warning: #FFA62F;
+@brand-danger: #B6291A;
+@brand-info: #31AAFC;
+
+// Status colors
+@primary-xd: darken(@primary-md, 30%);
+@primary-dk: darken(@primary-md, 20%);
+@primary-md: @brand-primary;
+@primary-lt: lighten(@primary-md, 13.5%);
+@primary-xl: lighten(@primary-md, 28%);
+@success-xd: darken(@success-md, 28%);
+@success-dk: darken(@success-md, 13.5%);
+@success-md: @brand-success;
+@success-lt: lighten(@success-md, 13.5%);
+@success-xl: lighten(@success-md, 28%);
+@warning-xd: darken(@warning-md, 28%);
+@warning-dk: darken(@warning-md, 13.5%);
+@warning-md: @brand-warning;
+@warning-lt: lighten(@warning-md, 13.5%);
+@warning-xl: lighten(@warning-md, 28%);
+@danger-xd: darken(@danger-md, 28%);
+@danger-dk: darken(@danger-md, 13.5%);
+@danger-md: @brand-danger;
+@danger-lt: lighten(@danger-md, 13.5%);
+@danger-xl: lighten(@danger-md, 28%);
+@info-xd: darken(@info-md, 28%);
+@info-dk: darken(@info-md, 13.5%);
+@info-md: @brand-info;
+@info-lt: lighten(@info-md, 13.5%);
+@info-xl: lighten(@info-md, 28%);
+
+// Company colors
+@grey-xd: #323947;
+@grey-dk: #465260;
+@grey-md: #7B868C;
+@grey-lt: #DCDCDC;
+@grey-xl: #F9F9F9;
+@grey-xxl: #FCFCFC;
+@red-xd: #5C0000;
+@red-dk: #A61210;
+@red-md: #F63723;
+@red-lt: #FF7C68;
+@red-xl: #FFAC9F;
+@green-xd: #2A4A1D;
+@green-dk: #6E9628;
+@green-md: #80B856;
+@green-lt: #AEE07B;
+@green-xl: #CFFFB1;
+@blue-xd: #002440;
+@blue-dk: #005A91;
+@blue-md: #4BA3FF;
+@blue-lt: #6EBAFF;
+@blue-xl: #AEE4FF;
+@purple-xd: #090e49;
+@purple-dk: #2b2b85;
+@purple-md: #554ecd;
+@purple-lt: #8885e6;
+@purple-xl: #c3b9ff;
+@teal-xd: #004638;
+@teal-dk: #009174;
+@teal-md: #00CCA3;
+@teal-lt: #5BEDBD;
+@teal-xl: #B1FFD7;
+@orange-xd: #804900;
+@orange-dk: #F08400;
+@orange-md: #FFA62F;
+@orange-lt: #FFAF45;
+@orange-xl: #FFCE8E;
+
+//@brand-primary:         #008cba;
+//@brand-success:         #43ac6a;
+//@brand-info:            #5bc0de;
+//@brand-warning:         #E99002;
+//@brand-danger:          #F04124;
 
 
 //== Scaffolding
@@ -386,7 +457,7 @@
 // Inverted navbar
 // Reset inverted navbar basics
 @navbar-inverse-color:                      #fff;
-@navbar-inverse-bg:                         @brand-primary;
+@navbar-inverse-bg:                         @red-md;
 @navbar-inverse-border:                     darken(@navbar-inverse-bg, 10%);
 
 // Inverted navbar links
